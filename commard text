@@ -1,0 +1,11 @@
+docker -v
+docker ps
+docker ps --all
+docker images
+docker run busybox ls
+docker run busybox ping google.com
+docker stop id หยุด
+docker rm 7270e98b9c14 ลบ
+docker run nginx
+docker run -p 80:80 nginx
+docker run -p 9000:80 nginx
